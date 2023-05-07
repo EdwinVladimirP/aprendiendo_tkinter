@@ -37,6 +37,8 @@ button.place(relx=0.1, rely=0.1, relwidth= 0.5, relheight=0.5)
         ACEPTAN VALORES ENTRE 0 Y 1. 
 """
 
+"""hola prueba"""
+
 from tkinter import Tk, Label, Button, Entry
 
 ventana = Tk()
@@ -90,6 +92,8 @@ def fnSuma():
     r = float(n1) + float(n2)
     txt3.delete(0, 'end')
     txt3.insert(0, r)
+    
+
 
 
 lbl1 = Label(ventana, text="Primer número", bg="yellow")
