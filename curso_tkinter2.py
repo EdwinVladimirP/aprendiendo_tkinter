@@ -1,4 +1,6 @@
-"""Posicionar controles dentro de una ventana
+
+""" (otra página) https://www.youtube.com/@planet4tech
+Posicionar controles dentro de una ventana
 gestores de geometría
 -definir el modo en que deben colocarse los widgets(controles) dentro de una ventana
 *place
