@@ -51,13 +51,30 @@ ventana.geometry("600x500+300+150")
 
 # -------------------------------------->fin del ejemplo
 
-border = {  # -----------------------Se creó un diccionario.
-    "flat": Tk.FLAT,
-    "sunken": Tk.SUNKEN,
-    "raised": Tk.RAISED,
-    "groove": Tk.GROOVE,
-    "ridege": Tk.RIDGE
-}
+# border = {  # -----------------------Se creó un diccionario.
+#     "flat": Tk.FLAT,
+#     "sunken": Tk.SUNKEN,
+#     "raised": Tk.RAISED,
+#     "groove": Tk.GROOVE,
+#     "ridge": Tk.RIDGE
+# }
+
+# --->la palabra relief significa relieve.<-
+
+# for relief_name, relief in border.items():
+#     frame = Tk.Frame(master=ventana, relief=relief, borderwidth=5)
+#     frame.pack(side=Tk.TOP)
+#     label = Tk.Label(master=frame, text=relief_name)
+#     label.pack()
+
+# ------->frames de diferentes colores y haciendo que se expandan (vertical ó horizontalmente)
+# frame1 = Tk.Frame(master=ventana, width=100, height=100, bg="green")
+# frame1.pack(fill=Tk.X)
+# frame2 = Tk.Frame(master=ventana, width=100, height=100, bg="yellow")
+# frame2.pack(fill=Tk.X)
+# frame3 = Tk.Frame(master=ventana, width=100, height=100, bg="red")
+# frame3.pack(fill=Tk.X)
+
 """
 import tkinter as Tk
 
