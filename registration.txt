@@ -1,0 +1,3 @@
+Usuario: Leon	Password: secreto	Nombre completo: Leon Scott Kennedy	Edad: 36
+Usuario: cantinflas	Password: secreto2	Nombre completo: Mario Moreno Cantinflas	Edad: 37
+Usuario: Kazama	Password: first	Nombre completo: Heachy Michima	Edad: 40
